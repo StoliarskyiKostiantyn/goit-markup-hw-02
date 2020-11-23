@@ -4,7 +4,7 @@
 body{
     text-decoration-color: black;
 }
-a{text-decoration: none;}
+a{text-decoration: none; color: black;}
 ul{list-style: none;}
 
 .logo-link{
@@ -15,7 +15,9 @@ line-height: 1.192;
 letter-spacing: 0.03em;
 }
 
-.logo-text, 
+
+.current,
+.logo-text,
 .nav-link:focus, 
 .nav-link:hover,
 .nav-tel:focus,
@@ -58,6 +60,19 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
+.hero-button{
+background-color: var(--accent-color) ;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.875;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
 /*=============END MAIN SECTION========*/
 
 /*=============ADVANTEGES SECTION========*/
@@ -155,6 +170,22 @@ color: rgba(255, 255, 255, 0.6);
 /*============= END FOOTER========*/
 
 /*=======================================PORTFOLIO==========================*/
+.list-button{
+background: #F5F4FA;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.list-button:hover,
+.list-button:focus
+{
+    background:var(--accent-color);
+}
 
 .portfolio-card-title {
 font-family: Roboto;
